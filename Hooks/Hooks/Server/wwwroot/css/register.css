@@ -1,0 +1,42 @@
+﻿#form-container {
+    background-color: #B03F2F;
+    text-align: center;
+    margin: 25vh auto;
+    width: 65vw;
+    border-radius: 8px;
+    padding: 30px 10px;
+}
+
+h2 {
+    color: #1E1E1E;
+    margin: 30px 0;
+}
+
+input, select {
+    padding: 15px 10px;
+    border-radius: 8px;
+    border: none;
+    width: 70%;
+}
+
+select {
+    width: 58%;
+}
+
+#registerSubmit {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-item, button {
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 30px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "HKpgGiHaJnOd2YByOWKHfOFKiYQ3cU15GGTVhKQ1flZcNRuz6fUDqUEqMs+7+s18PELvpcVMOV1O1zP3ih9M9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Shared\\Hooks.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shawn\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\shawn\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\shawn\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

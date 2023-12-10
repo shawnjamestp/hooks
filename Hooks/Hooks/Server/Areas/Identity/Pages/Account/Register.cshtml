@@ -1,0 +1,116 @@
+﻿@page "/register"
+@model RegisterModel
+
+<link href="css/register.css" rel="stylesheet" />
+
+<PageTitle>Hooks | Register</PageTitle>
+
+<div>
+    <div id="form-container">
+        <form id="registerForm" asp-route-returnUrl="/upload" method="post" enctype="multipart/form-data">
+            <h2>How do you want to get started?</h2>
+            <div asp-validation-summary="ModelOnly" role="alert"></div>
+            <div class="form-item">
+                <input asp-for="Input.FirstName" autocomplete="firstname" aria-required="true" placeholder="FIRST NAME" />
+                <span asp-validation-for="Input.FirstName"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.LastName" autocomplete="lastname" aria-required="true" placeholder="LAST NAME" />
+                <span asp-validation-for="Input.LastName"></span>
+            </div>
+            <div class="form-item">
+                <label asp-for="Input.Gender">GENDER:</label>
+                <select asp-for="Input.Gender" autocomplete="gender" aria-required="true"/>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <span asp-validation-for="Input.Gender"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.Email" autocomplete="username" aria-required="true" placeholder="EMAIL" />
+                <span asp-validation-for="Input.Email"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.Password" autocomplete="new-password" aria-required="true" placeholder="PASSWORD" />
+                <span asp-validation-for="Input.Password"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.ConfirmPassword" autocomplete="new-password" aria-required="true" placeholder="CONFIRM PASSWORD" />
+                <span asp-validation-for="Input.ConfirmPassword"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.ProfilePhoto" type="file">
+                <span asp-validation-for="Input.ProfilePhoto"></span>
+            </div>
+            @*
+            <div class="form-item">
+                <input asp-for="Input.DateOfBirth" type="file">
+                <span asp-validation-for="Input.DateOfBirth"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.Bio" type="file">
+                <span asp-validation-for="Input.Bio"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.Height" type="file">
+                <span asp-validation-for="Input.Height"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.Ethnicity" type="file">
+                <span asp-validation-for="Input.Ethnicity"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.Smoking" type="file">
+                <span asp-validation-for="Input.Smoking"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.Drinking" type="file">
+                <span asp-validation-for="Input.Drinking"></span>
+            </div>
+            <div class="form-item">
+                <input asp-for="Input.Religion" type="file">
+                <span asp-validation-for="Input.Religion"></span>
+            </div>
+            *@
+            <button id="registerSubmit" type="submit">Register</button>
+        </form>
+    </div>
+    <!--
+    <div class="col-md-6 col-md-offset-2">
+        <section>
+            <h3>Use another service to register.</h3>
+            <hr />
+            @*
+            @{
+                if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div>
+                        <p>
+                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
+                            about setting up this ASP.NET application to support logging in via external services</a>.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins!)
+                                {
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                }
+                            </p>
+                        </div>
+                    </form>
+                }
+            }
+        </section>
+        *@
+    </div>
+    -->
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

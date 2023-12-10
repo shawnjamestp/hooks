@@ -1,0 +1,8 @@
+Background image: https://www.pexels.com/photo/silhouette-of-man-jumping-on-field-during-night-time-4606770/
+logo: 
+
+TODO
+- Entity Relationship Diagram
+- Sitemap
+- Home page, user register & login page designs
+- Home page, user register & login page code

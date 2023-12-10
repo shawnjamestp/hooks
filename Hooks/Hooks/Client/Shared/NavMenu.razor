@@ -1,0 +1,54 @@
+﻿@inject NavigationManager NavigationManager
+@inject IJSRuntime JS
+
+<nav>
+    <div class="container1">
+        <a href="/">
+            <img src="logo-cropped.png" id="logo" />
+        </a>
+        <AuthorizeView>
+            <NotAuthorized>
+                <a href="register">
+                    <button id="get-started-btn">Get Started</button>
+                </a>
+            </NotAuthorized>
+            <Authorized>
+                <a href="/">
+                    <button id="get-started-btn">My Profile</button>
+                </a>
+            </Authorized>
+        </AuthorizeView>
+    </div>
+    <div class="container2">
+        @if(NavigationManager.Uri.ToString()=="https://localhost:44312/about")
+        {
+            <a href="/" id="home">Home</a>
+            <a href="contact" id="contact">Contact</a>
+            <AuthorizeView>
+                <Authorized>
+                    <a href="/identity/account/logout" id="logout">Logout</a>
+                </Authorized>
+            </AuthorizeView>
+        } 
+        else if(NavigationManager.Uri.ToString()=="https://localhost:44312/contact" || NavigationManager.Uri.ToString()=="https://localhost:44312/register" )
+        {
+            <a href="/" id="home">Home</a>
+            <a href="about" id="about">About Us</a>
+            <AuthorizeView>
+                <Authorized>
+                    <a href="/identity/account/logout" id="logout">Logout</a>
+                </Authorized>
+            </AuthorizeView>
+        } 
+        else
+        {
+            <a href="about" id="about">About Us</a>
+            <a href="contact" id="contact">Contact</a>
+            <AuthorizeView>
+                <Authorized>
+                    <a href="/identity/account/logout" id="logout">Logout</a>
+                </Authorized>
+            </AuthorizeView>
+        }
+    </div>
+</nav>

@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\obj\\Debug\\net7.0\\compressed\\ty21mtwpvb.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Hooks.Client.styles.css",
+      "PackagePath": "staticwebassets\\Hooks.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\obj\\Debug\\net7.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\obj\\Debug\\net7.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\background-cropped.png",
+      "PackagePath": "staticwebassets\\background-cropped.png"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\background-edited.png",
+      "PackagePath": "staticwebassets\\background-edited.png"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\background.psd",
+      "PackagePath": "staticwebassets\\background.psd"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\background.webp",
+      "PackagePath": "staticwebassets\\background.webp"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\logo-cropped.png",
+      "PackagePath": "staticwebassets\\logo-cropped.png"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\shawn\\student\\FULL_STACK\\hooks\\Hooks\\Hooks\\Client\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Hooks.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Hooks.Client.props",
+      "PackagePath": "build\\Hooks.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Hooks.Client.props",
+      "PackagePath": "buildMultiTargeting\\Hooks.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Hooks.Client.props",
+      "PackagePath": "buildTransitive\\Hooks.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

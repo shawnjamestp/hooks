@@ -1,0 +1,75 @@
+<mxfile host="Electron" modified="2023-12-01T02:40:20.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="uAvl8_LOjaLXO-p1OU5T" version="22.1.2" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="918" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pa5k9DusvXl9ULIlLwVV-54" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="20" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa5k9DusvXl9ULIlLwVV-55" value="UserID (PK)&lt;br&gt;Username&lt;br&gt;Email&lt;br&gt;Password&lt;br&gt;DateOfBirth&lt;br&gt;Gender&lt;br&gt;Location&lt;br&gt;ProfilePicture&lt;br&gt;Bio&lt;br&gt;RegistrationDate&lt;br&gt;Height&lt;br&gt;Hobbies&lt;br&gt;Ethnicity&lt;br&gt;Smoking&lt;br&gt;Drinking&lt;br&gt;Religion" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Pa5k9DusvXl9ULIlLwVV-54" vertex="1">
+          <mxGeometry y="50" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa5k9DusvXl9ULIlLwVV-57" value="Match" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="180" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa5k9DusvXl9ULIlLwVV-58" value="MatchID (PK)&lt;br&gt;UserID (FK)&lt;br&gt;User2ID (FK)&lt;br&gt;MatchDate&lt;br&gt;MatchStatus" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Pa5k9DusvXl9ULIlLwVV-57" vertex="1">
+          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa5k9DusvXl9ULIlLwVV-59" value="Message" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="460" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa5k9DusvXl9ULIlLwVV-60" value="MessageID (PK)&lt;br&gt;SenderID (FK)&lt;br&gt;ReceiverID (FK)&lt;br&gt;MessageText&lt;br&gt;Timestamp&lt;br&gt;Status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Pa5k9DusvXl9ULIlLwVV-59" vertex="1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa5k9DusvXl9ULIlLwVV-61" value="Photo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pa5k9DusvXl9ULIlLwVV-62" value="PhotoID (PK)&lt;br&gt;UserID (FK)&lt;br&gt;ImageURL&lt;br&gt;UploadDate" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Pa5k9DusvXl9ULIlLwVV-61" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ofby_3PSYnQs6wLy6_GR-4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pa5k9DusvXl9ULIlLwVV-55" target="Pa5k9DusvXl9ULIlLwVV-62">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="300" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ofby_3PSYnQs6wLy6_GR-5" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pa5k9DusvXl9ULIlLwVV-55" target="Pa5k9DusvXl9ULIlLwVV-58">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="300" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ofby_3PSYnQs6wLy6_GR-6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="ofby_3PSYnQs6wLy6_GR-19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="190" y="245" as="sourcePoint" />
+            <mxPoint x="330" y="263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ofby_3PSYnQs6wLy6_GR-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;entryX=0.44;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pa5k9DusvXl9ULIlLwVV-59" target="Pa5k9DusvXl9ULIlLwVV-55">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="350" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ofby_3PSYnQs6wLy6_GR-18" value="Like" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ofby_3PSYnQs6wLy6_GR-19" value="LikeID (PK)&lt;br&gt;SenderID (FK)&lt;br&gt;ReceiverID (FK)&lt;br&gt;LikeDate" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ofby_3PSYnQs6wLy6_GR-18">
+          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ofby_3PSYnQs6wLy6_GR-22" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.571;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pa5k9DusvXl9ULIlLwVV-58" target="ofby_3PSYnQs6wLy6_GR-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="410" />
+              <mxPoint x="410" y="410" />
+              <mxPoint x="420" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

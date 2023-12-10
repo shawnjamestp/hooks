@@ -1,0 +1,31 @@
+﻿#about-container {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    column-gap: 60px;
+    margin: 35vh 5vw;
+    color: white;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    flex: 1;
+    height: 200px;
+    padding: 50px;
+    background-color: #B03F2F;
+    border-radius: 20px;
+}
+
+#content {
+    line-height: 2;
+    flex: 2;
+    margin-right: 100px;
+}
+
+#selected {
+    color: #020504;
+    font-weight: bold;
+}
